@@ -1,9 +1,13 @@
 {
   "body": {
     "address": "R. XV de Novembro, 3057 - Centro, São José do Rio Preto - SP, 15015-110",
-    "brand": "Spotren",
-    "category": "Software Company",
+    "brand": "Spotren™",
+    "category": "Empresa de Software",
     "city": "São José do Rio Preto",
+    "logo": {
+      "alt": "Logo Spotren™ Empresa de Software São José do Rio Preto",
+      "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/logo/1781043876777605604-spotren-favicon-wp-optmz.png"
+    },
     "openStatus": "Aberto agora",
     "phone": "(17) 99650-2614",
     "rating": 5,
@@ -21,11 +25,6 @@
         "description": "Veja o que clientes reais dizem sobre a experiência com o negócio.",
         "items": [
           {
-            "name": "Daiana Braga",
-            "quote": "Sou profissional de educação e durante a pandemia engajei na criação de um blog para dar continuidade ao meu trabalho e a partir desse blog comecei a empreender com EAD. A Analisa Site foi parceira importante na divulgação da minha plataforma digital, permitindo que clientes encotrassem meu trabalho com maior facilidade. Além disso, a AS é uma empresa com excelentes profissionais que têm me atendido muito bem. Recomendo!",
-            "rating": 5
-          },
-          {
             "name": "Ariane",
             "quote": "Trabalho sério, comprometimento e muito atento às demandas do mercado. Um portfólio excelente, com entregas muito profissionais e eficientes, ótima experiência!",
             "rating": 5
@@ -33,16 +32,6 @@
           {
             "name": "HR História Regional",
             "quote": "Ótimo atendimento, respondem rapido e entregam o prometido de verdade ,  poucas empresas cumprem o esperado assim.",
-            "rating": 5
-          },
-          {
-            "name": "fefe",
-            "quote": "muito bom, trabalho rápido e eficiente 👏🏻👏🏻👏🏻",
-            "rating": 5
-          },
-          {
-            "name": "Francielli pedro da costa",
-            "quote": "Muito bom, ótimo trabalho.",
             "rating": 5
           }
         ],
@@ -54,10 +43,16 @@
         "key": "products",
         "products": [
           {
-            "category": "Desenvolvimento Web",
+            "category": "Construtor de Sites",
             "content": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
-            "priceType": "none",
-            "title": "Criação de Sites Profissionais"
+            "ctaText": "Assinar",
+            "currency": "R$",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781044315066712419-teste-thumbs-spotren-ndex.avif",
+            "period": "/ mês",
+            "price": "70.40",
+            "priceType": "fixed",
+            "title": "ndEX Builder Pró",
+            "url": "https://wa.me/17996502614"
           },
           {
             "category": "Educação Digital",
@@ -137,15 +132,21 @@
         "title": "FAQs"
       }
     ],
-    "tagline": "Transforme sua presença digital com soluções inteligentes de software e marketing. Somos especialistas em criar sites, plataformas EAD e estratégias"
+    "tagline": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Liberais / Autônomos de São José do Rio Preto"
   },
   "catalogItems": [
     {
-      "category": "Desenvolvimento Web",
+      "category": "Construtor de Sites",
       "content": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
-      "priceType": "none",
-      "title": "Criação de Sites Profissionais",
-      "type": "product"
+      "ctaText": "Assinar",
+      "currency": "R$",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781044315066712419-teste-thumbs-spotren-ndex.avif",
+      "period": "/ mês",
+      "price": "70.40",
+      "priceType": "fixed",
+      "title": "ndEX Builder Pró",
+      "type": "product",
+      "url": "https://wa.me/17996502614"
     },
     {
       "category": "Educação Digital",
@@ -184,8 +185,14 @@
     }
   ],
   "head": {
+    "description": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Autônomos de São José do Rio Preto",
+    "icon": {
+      "contentType": "image/x-icon",
+      "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/favicon/1781043875849419270-spotren-favicon-wp.ico"
+    },
     "lang": "pt-BR",
-    "title": "Spotren™ | São José do Rio Preto"
+    "title": "Spotren™ Empresa de Software em São José do Rio Preto",
+    "website": "https://spotren.site"
   },
   "posts": [
     {
@@ -238,23 +245,12 @@
           "ratingValue": 5,
           "reviewCount": 9
         },
+        "category": "Empresa de Software",
+        "description": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Autônomos de São José do Rio Preto",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/logo/1781043876777605604-spotren-favicon-wp-optmz.png",
+        "logo": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/logo/1781043876777605604-spotren-favicon-wp-optmz.png",
         "name": "Spotren™",
         "review": [
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Daiana Braga"
-            },
-            "datePublished": "2025-05-10T11:55:36.610811Z",
-            "reviewBody": "Sou profissional de educação e durante a pandemia engajei na criação de um blog para dar continuidade ao meu trabalho e a partir desse blog comecei a empreender com EAD. A Analisa Site foi parceira importante na divulgação da minha plataforma digital, permitindo que clientes encotrassem meu trabalho com maior facilidade. Além disso, a AS é uma empresa com excelentes profissionais que têm me atendido muito bem. Recomendo!",
-            "reviewRating": {
-              "@type": "Rating",
-              "bestRating": 5,
-              "ratingValue": 5,
-              "worstRating": 1
-            }
-          },
           {
             "@type": "Review",
             "author": {
@@ -284,42 +280,110 @@
               "ratingValue": 5,
               "worstRating": 1
             }
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "fefe"
-            },
-            "datePublished": "2024-09-04T13:17:19.063838Z",
-            "reviewBody": "muito bom, trabalho rápido e eficiente 👏🏻👏🏻👏🏻",
-            "reviewRating": {
-              "@type": "Rating",
-              "bestRating": 5,
-              "ratingValue": 5,
-              "worstRating": 1
-            }
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Francielli pedro da costa"
-            },
-            "datePublished": "2024-09-04T13:05:06.535566Z",
-            "reviewBody": "Muito bom, ótimo trabalho.",
-            "reviewRating": {
-              "@type": "Rating",
-              "bestRating": 5,
-              "ratingValue": 5,
-              "worstRating": 1
-            }
           }
         ],
         "sameAs": [
           "https://maps.google.com/?cid=18394367288973268008\u0026g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
         ],
-        "telephone": "(17) 99650-2614"
+        "slogan": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Liberais / Autônomos de São José do Rio Preto",
+        "telephone": "(17) 99650-2614",
+        "url": "https://spotren.site"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O prazo varia conforme a complexidade, mas geralmente entregamos sites institucionais em 15 a 30 dias úteis."
+            },
+            "name": "Quanto tempo leva para criar um site?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim, oferecemos planos de manutenção mensal com suporte técnico e atualizações."
+            },
+            "name": "Vocês oferecem suporte após a entrega?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim, nossa plataforma é escalável e suporta desde pequenos cursos até milhares de alunos simultâneos."
+            },
+            "name": "A plataforma EAD suporta muitos alunos?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim, todos os sites são personalizados de acordo com a identidade visual da sua marca."
+            },
+            "name": "Posso personalizar o design do meu site?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Atendemos clientes em todo o Brasil, com reuniões online e entregas remotas."
+            },
+            "name": "Vocês atendem apenas em São José do Rio Preto?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Os valores variam conforme as funcionalidades, mas entramos em contato para um orçamento sem compromisso."
+            },
+            "name": "Qual o investimento médio para um site?"
+          }
+        ]
+      },
+      {
+        "@type": "Product",
+        "category": "Construtor de Sites",
+        "description": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
+        "name": "ndEX Builder Pró",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "price": "70.40",
+          "url": "https://wa.me/17996502614"
+        },
+        "url": "https://wa.me/17996502614"
+      },
+      {
+        "@type": "Product",
+        "category": "Educação Digital",
+        "description": "Solução completa para criar e gerenciar cursos online, com suporte a vídeos, quizzes e certificados.",
+        "name": "Plataforma EAD"
+      },
+      {
+        "@type": "Product",
+        "category": "Conteúdo Digital",
+        "description": "Blog personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+        "name": "Blog Corporativo"
+      },
+      {
+        "@type": "Service",
+        "category": "Divulgação Online",
+        "description": "Estratégias de SEO, anúncios e redes sociais para aumentar sua visibilidade e vendas.",
+        "name": "Marketing Digital"
+      },
+      {
+        "@type": "Service",
+        "category": "Suporte Técnico",
+        "description": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
+        "name": "Manutenção de Sites"
+      },
+      {
+        "@type": "Service",
+        "category": "Consultoria",
+        "description": "Análise e planejamento para digitalizar processos e otimizar resultados do seu negócio.",
+        "name": "Consultoria em Transformação Digital"
       }
     ]
   },
