@@ -1,0 +1,193 @@
+{
+  "head": {
+    "title": "Spotren™ Empresa de Software em São José do Rio Preto",
+    "description": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Autônomos de São José do Rio Preto",
+    "website": "https://spotren-6ada0a14.vercel.app",
+    "lang": "pt-BR",
+    "icon": {
+      "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/favicon/1780619710591600759-spotren-favicon-wp.ico",
+      "contentType": "image/x-icon"
+    },
+    "ogImage": {
+      "url": "",
+      "contentType": ""
+    }
+  },
+  "socialLinks": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/rafa.spotren"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/spotren.now"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/company/spotren"
+    }
+  ],
+  "body": {
+    "logo": {
+      "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/logo/1780619696492441545-spotren-favicon-wp-optmz.png",
+      "alt": "Logo Spotren™ Empresa de Software São José do Rio Preto"
+    },
+    "brand": "Spotren™",
+    "tagline": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Liberais / Autônomos de São José do Rio Preto",
+    "category": "Empresa de Software",
+    "city": "São José do Rio Preto",
+    "rating": 5,
+    "reviewCount": 9,
+    "phone": "(17) 99650-2614",
+    "address": "R. XV de Novembro, 3057 - Centro, São José do Rio Preto - SP, 15015-110",
+    "openStatus": "Aberto agora",
+    "sections": [
+      {
+        "key": "location",
+        "title": "Localização",
+        "description": "Onde estamos.",
+        "latitude": -20.813157699999998,
+        "longitude": -49.3796621,
+        "googleMapsUri": "https://maps.google.com/?cid=18394367288973268008&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+      },
+      {
+        "key": "reviews",
+        "title": "Avaliações",
+        "description": "Veja o que clientes reais dizem sobre a experiência com a Spotren™",
+        "items": [
+          {
+            "name": "Ariane",
+            "rating": 5,
+            "quote": "Trabalho sério, comprometimento e muito atento às demandas do mercado. Um portfólio excelente, com entregas muito profissionais e eficientes, ótima experiência!"
+          },
+          {
+            "name": "HR História Regional",
+            "rating": 5,
+            "quote": "Ótimo atendimento, respondem rapido e entregam o prometido de verdade ,  poucas empresas cumprem o esperado assim."
+          }
+        ]
+      },
+      {
+        "key": "products",
+        "title": "Produtos",
+        "description": "Soluções disponíveis para contratar agora.",
+        "products": [
+          {
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
+            "title": "ndEX Builder v1",
+            "category": "Construtor de Sites",
+            "priceType": "none",
+            "price": "70.40",
+            "period": "",
+            "content": "Site otimizado para Negócios Locais",
+            "ctaText": "Assinar",
+            "url": "https://wa.me/17996502614"
+          },
+          {
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
+            "title": "ndEX Builder v1",
+            "category": "Construtor de Sites",
+            "priceType": "free",
+            "price": "70.40",
+            "period": "",
+            "content": "Site otimizado para Negócios Locais",
+            "ctaText": "Assinar",
+            "url": "https://wa.me/17996502614"
+          },
+          {
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
+            "title": "ndEX Builder v1",
+            "category": "Construtor de Sites",
+            "priceType": "fixed",
+            "price": "70.40",
+            "period": "/mês",
+            "content": "Site otimizado para Negócios Locais",
+            "ctaText": "Assinar",
+            "url": "https://wa.me/17996502614"
+          },
+          {
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
+            "title": "ndEX Builder v1",
+            "category": "Construtor de Sites",
+            "priceType": "starting_at",
+            "price": "70.40",
+            "period": "",
+            "content": "Site otimizado para Negócios Locais",
+            "ctaText": "Assinar",
+            "url": "https://wa.me/17996502614"
+          },
+          {
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
+            "title": "ndEX Builder v1",
+            "category": "Construtor de Sites",
+            "priceType": "fixed",
+            "price": "70.40",
+            "period": "",
+            "content": "Site otimizado para Negócios Locais",
+            "ctaText": "Assinar",
+            "url": "https://wa.me/17996502614"
+          }
+        ]
+      },
+      {
+        "key": "services",
+        "title": "Serviços",
+        "description": "Software sob medida para o seu negócio.",
+        "services": [
+          {
+            "imageUrl": "",
+            "title": "Software / SaaS Personalizado",
+            "category": "",
+            "priceType": "starting_at",
+            "price": "R$ 1.500",
+            "content": "",
+            "ctaText": "",
+            "url": ""
+          },
+          {
+            "imageUrl": "",
+            "title": "Site para Advogados",
+            "category": "",
+            "priceType": "fixed",
+            "price": "R$ 750",
+            "content": "",
+            "ctaText": "",
+            "url": ""
+          },
+          {
+            "imageUrl": "",
+            "title": "Site para Advogados",
+            "category": "",
+            "priceType": "free",
+            "price": "R$ 750",
+            "content": "",
+            "ctaText": "",
+            "url": ""
+          },
+          {
+            "imageUrl": "",
+            "title": "Site para Advogados",
+            "category": "",
+            "priceType": "none",
+            "price": "R$ 750",
+            "content": "",
+            "ctaText": "",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "key": "faqs",
+        "title": "FAQs",
+        "description": "Perguntas comuns sobre o site e o serviço.",
+        "faqs": [
+          {
+            "category": "Performance",
+            "question": "O site da ndEX é rápido?",
+            "answer": "Sim, nossos sites recebem Nota 100/100 no Google PageSpeed Insights."
+          }
+        ]
+      }
+    ]
+  }
+}

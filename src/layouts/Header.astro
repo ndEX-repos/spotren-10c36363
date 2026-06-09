@@ -1,0 +1,55 @@
+---
+import ThemeToggle from '~/components/theme/ThemeToggle.astro'
+import HeaderGradient from '~/components/theme/HeaderGradient.astro'
+import SectionDivider from '~/components/base/SectionDivider.astro'
+import HeaderLink from '~/components/base/HeaderLink.astro'
+import SearchSwitch from '~/components/base/SearchSwitch.astro'
+import { NAVIGATION_CONFIG } from '~/config'
+import { getSiteData } from '~/lib/site-data'
+
+type Props = {
+  showSearch?: boolean
+}
+
+const { showSearch = true }: Props = Astro.props
+const siteData = await getSiteData()
+const siteBrand = siteData.body.brand || siteData.head.title
+---
+
+<HeaderGradient />
+<header>
+  <div class="home-shell-width home-header-row">
+    <div class="home-header-brand">
+      <a href="/" class="pointer-events-auto select-none" transition:persist>
+        {
+          siteData.body.logo?.url ? (
+            <img src={siteData.body.logo.url} alt={siteData.body.logo.alt || `${siteBrand} logo`} class="w-8 h-8 object-contain" loading="eager" />
+          ) : (
+            <span class="text-base font-semibold tracking-tight text-foreground">{siteBrand}</span>
+          )
+        }
+      </a>
+      <div class="home-header-brand-links">
+        {
+          NAVIGATION_CONFIG.headerLinks.map((link) => (
+            <HeaderLink href={link.url} background>
+              {link.name}
+            </HeaderLink>
+          ))
+        }
+      </div>
+    </div>
+    <div class="home-header-actions" transition:persist="header-theme-toggle">
+      {showSearch && <SearchSwitch />}
+      <ThemeToggle />
+    </div>
+  </div>
+  <div class="relative global-layout-width mx-auto pointer-events-none">
+    <div aria-hidden="true" class="absolute inset-x-0 -top-14 bottom-0 mx-auto global-layout-width">
+      <div class="absolute bottom-0 left-0 top-0 w-px bg-gradient-to-b from-transparent to-[hsl(var(--border)/0.5)] to-75%"></div>
+      <div class="absolute bottom-0 right-0 top-0 w-px bg-gradient-to-b from-transparent to-[hsl(var(--border)/0.5)] to-75%"></div>
+    </div>
+  </div>
+</header>
+
+<SectionDivider className="home-divider border-t-border dark:border-t-border/50" />

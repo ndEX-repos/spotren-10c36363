@@ -1,0 +1,17 @@
+---
+import { truncateText } from '~/lib/utils'
+
+interface Props {
+  title: string
+  introduce: string
+}
+
+const { title, introduce } = Astro.props
+---
+
+<h1 class="tracking-tight text-4xl sm:text-5xl bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent pb-1.5">
+  {title}
+</h1>
+<div class="mt-2 max-w-2xl text-base leading-7 text-muted-foreground text-pretty">
+  <p class="mt-2">{truncateText(introduce, 150)}</p>
+</div>

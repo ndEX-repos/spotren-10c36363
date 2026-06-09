@@ -1,0 +1,200 @@
+---
+type FaqItem = {
+  category: string
+  question: string
+  answer: string
+}
+
+type Props = {
+  title: string
+  description: string
+  faqs: FaqItem[]
+}
+
+const { title, description, faqs }: Props = Astro.props
+
+const visibleFaqs = faqs.filter((item) => item.question.trim() && item.answer.trim())
+const categories = Array.from(new Set(visibleFaqs.map((item) => item.category.trim()).filter(Boolean)))
+const groups = categories.map((category) => ({
+  category,
+  items: visibleFaqs.filter((item) => item.category.trim() === category),
+}))
+const uncategorized = visibleFaqs.filter((item) => !item.category.trim())
+if (uncategorized.length > 0) {
+  groups.push({
+    category: title,
+    items: uncategorized,
+  })
+}
+---
+
+<div class="grid gap-8 md:grid-cols-[0.4fr_0.6fr] md:items-start" data-faq-section>
+  <div class="flex flex-col gap-6">
+    <div>
+      <h2 class="text-2xl sm:text-3xl tracking-tight">{title}</h2>
+      <p class="text-muted-foreground mt-2">{description}</p>
+    </div>
+    <div class="flex flex-col items-start gap-3">
+      {
+        groups.map((group, index) => (
+          <button
+            type="button"
+            data-faq-tab
+            data-faq-index={index}
+            class:list={[
+              'group inline-flex items-center gap-3 text-left text-sm font-medium transition',
+              index === 0 ? 'text-foreground' : 'text-muted-foreground hover:text-foreground',
+            ]}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          >
+            <span
+              data-faq-tab-line
+              class:list={[
+                'h-px w-8 transition',
+                index === 0 ? 'bg-foreground' : 'bg-border/70 group-hover:bg-foreground',
+              ]}
+            ></span>
+            {group.category}
+          </button>
+        ))
+      }
+    </div>
+  </div>
+  <div class="pl-px pr-px">
+    <div class="relative" data-faq-panels>
+    {
+      groups.map((group, index) => (
+        <div
+          data-faq-panel
+          data-faq-index={index}
+          class:list={[
+            'grid transition-opacity duration-200 ease-out',
+            index === 0 ? 'opacity-100 relative' : 'opacity-0 pointer-events-none absolute inset-0',
+          ]}
+        >
+          {
+            group.items.map((item, itemIndex) => (
+              <details
+                open={itemIndex === 0}
+                class:list={[
+                  'group border border-border/60 bg-card/30 px-5 py-4',
+                  itemIndex === 0 ? 'rounded-t-2xl rounded-b-none' : '',
+                  itemIndex > 0 ? '-mt-px rounded-none' : '',
+                  itemIndex === group.items.length - 1 ? 'rounded-b-2xl' : '',
+                ]}
+              >
+                <summary class="flex cursor-pointer list-none items-start justify-between gap-6 font-medium text-foreground">
+                  <span>{item.question}</span>
+                  <span class="relative mt-1 size-4 shrink-0 text-muted-foreground transition-transform duration-200 group-open:rotate-45">
+                    <span class="absolute left-1/2 top-1/2 h-0.5 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-current"></span>
+                    <span class="absolute left-1/2 top-1/2 h-4 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-current transition-opacity duration-200 group-open:opacity-0"></span>
+                  </span>
+                </summary>
+                <p class="mt-3 text-sm leading-6 text-muted-foreground">{item.answer}</p>
+              </details>
+            ))
+          }
+        </div>
+      ))
+    }
+    </div>
+  </div>
+</div>
+
+<script>
+  const faqSections = new WeakMap<
+    HTMLElement,
+    {
+      cleanup: () => void
+    }
+  >()
+
+  const setFaqActiveIndex = (root: HTMLElement, activeIndex: number) => {
+    const tabs = Array.from(root.querySelectorAll('[data-faq-tab]')) as HTMLButtonElement[]
+    const panels = Array.from(root.querySelectorAll('[data-faq-panel]')) as HTMLElement[]
+
+    tabs.forEach((tab, index) => {
+      const isActive = index === activeIndex
+      tab.setAttribute('aria-pressed', isActive ? 'true' : 'false')
+      tab.classList.toggle('text-foreground', isActive)
+      tab.classList.toggle('text-muted-foreground', !isActive)
+      tab.classList.toggle('hover:text-foreground', !isActive)
+
+      const line = tab.querySelector('[data-faq-tab-line]')
+      if (line instanceof HTMLElement) {
+        line.classList.toggle('bg-foreground', isActive)
+        line.classList.toggle('bg-border/70', !isActive)
+      }
+    })
+
+    panels.forEach((panel, index) => {
+      const isActive = index === activeIndex
+      if (isActive) {
+        panel.classList.remove('absolute', 'inset-0', 'pointer-events-none')
+        panel.classList.add('relative')
+        requestAnimationFrame(() => {
+          panel.classList.remove('opacity-0')
+          panel.classList.add('opacity-100')
+        })
+        return
+      }
+
+      panel.classList.remove('relative')
+      panel.classList.add('absolute', 'inset-0', 'pointer-events-none')
+      panel.classList.remove('opacity-100')
+      panel.classList.add('opacity-0')
+    })
+  }
+
+  const setupFaqSection = (root: HTMLElement) => {
+    if (faqSections.has(root)) return
+
+    const tabs = Array.from(root.querySelectorAll('[data-faq-tab]')) as HTMLButtonElement[]
+    const abortController = new AbortController()
+    const { signal } = abortController
+
+    tabs.forEach((tab) => {
+      tab.addEventListener(
+        'click',
+        () => {
+          const activeIndex = Number(tab.dataset.faqIndex || '0')
+          setFaqActiveIndex(root, activeIndex)
+        },
+        { signal }
+      )
+    })
+
+    setFaqActiveIndex(root, 0)
+    root.querySelectorAll('details').forEach((detail) => {
+      detail.addEventListener(
+        'toggle',
+        () => {
+          if (detail.open) {
+            const parentPanel = detail.closest('[data-faq-panel]') as HTMLElement | null
+            parentPanel?.querySelectorAll('details').forEach((otherDetail) => {
+              if (otherDetail !== detail) {
+                ;(otherDetail as HTMLDetailsElement).open = false
+              }
+            })
+          }
+        },
+        { signal }
+      )
+    })
+
+    faqSections.set(root, {
+      cleanup: () => abortController.abort(),
+    })
+  }
+
+  const initFaqSections = () => {
+    document.querySelectorAll('[data-faq-section]').forEach((section) => {
+      if (section instanceof HTMLElement) {
+        setupFaqSection(section)
+      }
+    })
+  }
+
+  document.addEventListener('astro:page-load', initFaqSections)
+  initFaqSections()
+</script>

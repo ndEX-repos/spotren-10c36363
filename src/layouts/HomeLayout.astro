@@ -1,0 +1,69 @@
+---
+import homeStylesheetUrl from '~/styles/home-entry.css?url'
+import homeCriticalCss from '~/styles/home-critical.css?raw'
+import { getSiteData } from '~/lib/site-data'
+import Head from '~/components/base/Head.astro'
+import Header from './Header.astro'
+import Footer from './Footer.astro'
+
+type Props = {
+  title: string
+  description: string
+  image?: string
+  useTitleAsIs?: boolean
+  schemaGraph?: Record<string, unknown>
+}
+
+const { title, description, image, useTitleAsIs = false, schemaGraph }: Props = Astro.props
+const siteData = await getSiteData()
+const documentTitle = useTitleAsIs ? title : `${title} | ${siteData.head.title}`
+const schemaGraphJSON = schemaGraph
+  ? JSON.stringify(schemaGraph).replace(/<\/script/gi, '<\\/script')
+  : ''
+const minifiedHomeCriticalCss = homeCriticalCss
+  .replace(/\/\*[\s\S]*?\*\//g, '')
+  .replace(/\s+/g, ' ')
+  .replace(/\s*([{}:;,])\s*/g, '$1')
+  .replace(/;}/g, '}')
+  .trim()
+---
+
+<!doctype html>
+<html lang={siteData.head.lang}>
+  <head>
+    <Head title={documentTitle} {description} {image} />
+    {schemaGraphJSON && <script type="application/ld+json" is:inline set:html={schemaGraphJSON}></script>}
+    <style is:inline set:html={minifiedHomeCriticalCss}></style>
+    <link id="home-styles-preload" rel="preload" as="style" href={homeStylesheetUrl} />
+    <script is:inline>
+      (() => {
+        const stylesheetLink = document.getElementById('home-styles-preload')
+        if (!(stylesheetLink instanceof HTMLLinkElement)) return
+
+        const activateStylesheet = () => {
+          if (stylesheetLink.rel === 'stylesheet') return
+          stylesheetLink.rel = 'stylesheet'
+          stylesheetLink.removeAttribute('as')
+        }
+
+        stylesheetLink.addEventListener('load', activateStylesheet, { once: true })
+      })()
+    </script>
+    <noscript>
+      <link rel="stylesheet" href={homeStylesheetUrl} />
+    </noscript>
+  </head>
+  <body class="home-page flex flex-col">
+    <Header showSearch={false} />
+    <div class="grow flex">
+      <main class="home-main home-shell-width grow min-w-0">
+        <slot />
+      </main>
+    </div>
+    <Footer />
+    <div
+      class="safari-hidden pointer-events-none bg-white dark:bg-black fixed z-50 bottom-0 left-0 h-28 [mask-image:linear-gradient(transparent,#000000)] w-full"
+    >
+    </div>
+  </body>
+</html>

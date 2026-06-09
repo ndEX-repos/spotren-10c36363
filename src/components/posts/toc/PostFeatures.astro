@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import type { MarkdownHeading } from 'astro'
+import TableOfContents from './TableOfContents.astro'
+import BackButton from './BackButton.astro'
+import BackToTop from './BackToTop.astro'
+
+interface Props {
+  post: CollectionEntry<'posts'>
+  posts: CollectionEntry<'posts'>[]
+  headings: MarkdownHeading[]
+}
+
+const { post, posts, headings } = Astro.props
+const hasHeadings = headings.length > 1
+---
+
+{hasHeadings && <TableOfContents headings={headings} />}
+
+<BackToTop id="backToTopMobile" class="xl:hidden fixed bottom-14 sm:right-8 right-6 z-50 flex flex-col gap-3" />
+
+<div class="post-desktop-rail post-desktop-rail--bottom hidden xl:flex">
+  <div class="flex items-center gap-2">
+    <BackButton {post} {posts} />
+    <BackToTop id="backToTopDesktop" />
+  </div>
+</div>

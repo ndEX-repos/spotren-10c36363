@@ -1,0 +1,38 @@
+---
+import '~/styles/site-entry.css'
+import { getSiteData } from '~/lib/site-data'
+import Head from '~/components/base/Head.astro'
+import Header from './Header.astro'
+import Footer from './Footer.astro'
+
+type Props = {
+  title: string
+  description: string
+  image?: string
+  useTitleAsIs?: boolean
+}
+
+const { title, description, image, useTitleAsIs = false }: Props = Astro.props
+const siteData = await getSiteData()
+const documentTitle = useTitleAsIs ? title : `${title} | ${siteData.head.title}`
+---
+
+<!doctype html>
+<html lang={siteData.head.lang}>
+  <head>
+    <Head title={documentTitle} {description} {image} />
+  </head>
+  <body class="flex flex-col">
+    <Header />
+    <div class="grow flex">
+      <main class="relative border-x border-border/50 global-layout-width mx-auto grow min-w-0">
+        <slot />
+      </main>
+    </div>
+    <Footer />
+    <div
+      class="safari-hidden pointer-events-none bg-white dark:bg-black fixed z-50 bottom-0 left-0 h-28 [mask-image:linear-gradient(transparent,#000000)] w-full"
+    >
+    </div>
+  </body>
+</html>

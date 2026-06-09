@@ -1,0 +1,203 @@
+---
+import { formatPriceParts } from '~/lib/utils'
+
+type ProductItem = {
+  imageSrc?: string
+  name: string
+  category: string
+  price?: string
+  url?: string
+  type?: string
+  period?: string
+}
+
+type Props = {
+  title: string
+  description: string
+  products: ProductItem[]
+}
+
+const { title, description, products }: Props = Astro.props
+---
+
+<div class="relative" data-products-slider>
+  <div class="mb-6 flex items-start justify-between gap-6">
+    <div>
+      <h2 class="text-2xl sm:text-3xl tracking-tight">{title}</h2>
+      <p class="text-muted-foreground mt-2">{description}</p>
+    </div>
+    <div class="hidden items-center gap-3 sm:flex">
+      <button
+        type="button"
+        aria-label="Previous products"
+        data-products-prev
+        class="inline-flex size-11 items-center justify-center rounded-full border border-border/60 text-foreground transition hover:bg-accent pointer-events-none opacity-30"
+      >
+        <span class="icon-[mdi--arrow-left] size-5"></span>
+      </button>
+      <button
+        type="button"
+        aria-label="Next products"
+        data-products-next
+        class="inline-flex size-11 items-center justify-center rounded-full border border-border/60 text-foreground transition hover:bg-accent"
+      >
+        <span class="icon-[mdi--arrow-right] size-5"></span>
+      </button>
+    </div>
+  </div>
+
+  <div
+    class="mr-[-1.5rem] overflow-x-auto no-scrollbar scroll-smooth snap-x snap-mandatory sm:mr-[-2rem]"
+    data-products-track
+  >
+    <div class="flex gap-6">
+      {
+        products.map((product) => {
+          const Tag = product.url ? 'a' : 'article'
+
+          return (
+            <Tag
+              href={product.url}
+              class="block min-w-0 shrink-0 basis-[80%] snap-start overflow-hidden border border-border/50 rounded-b-3xl bg-accent/20 transition hover:bg-muted/35 sm:basis-[calc((100%-1.5rem)/2.5)]"
+            >
+              <div class="border-b border-border/40 bg-muted/20">
+                {
+                  product.imageSrc ? (
+                    <img src={product.imageSrc} alt={product.name} loading="lazy" class="aspect-video w-full object-cover" draggable="false" />
+                  ) : (
+                    <div class="flex aspect-video w-full items-center justify-center bg-muted/40 text-muted-foreground">
+                      <span class="icon-[mdi--image-outline] size-10"></span>
+                    </div>
+                  )
+                }
+              </div>
+              <div class="space-y-2 p-5">
+                <p class="text-sm text-muted-foreground">{product.category}</p>
+                <h3 class="text-xl font-medium tracking-tight text-foreground">{product.name}</h3>
+                <div class="flex justify-between items-start gap-4">
+                  <div class="min-w-0">
+                    {
+                      product.type ? (
+                        <p class="inline-flex items-center gap-2 text-sm text-muted-foreground">
+                          {product.type === 'A partir de' ? (
+                            <span class="icon-[mdi--rocket-launch] text-base text-muted-foreground/80 leading-none"></span>
+                          ) : product.type === 'GRÁTIS' ? (
+                            <span class="icon-[ph--piggy-bank] text-lg text-muted-foreground/80 leading-none"></span>
+                          ) : product.type === 'Sob consulta' ? (
+                            <span class="icon-[ph--call-bell] text-lg text-muted-foreground/80 leading-none"></span>
+                          ) : null}
+                          <span>{product.type === 'GRÁTIS' ? 'Grátis' : product.type}</span>
+                        </p>
+                      ) : null
+                    }
+                  </div>
+                  {product.type !== 'Sob consulta' && product.type !== 'GRÁTIS' ? (
+                    <div class="shrink-0">
+                  {
+                    product.price && (() => {
+                      const parts = formatPriceParts(product.price, { period: product.period })
+                      if (!parts) return <div class="font-mono text-base text-muted-foreground/90 whitespace-nowrap">{product.price}</div>
+                      return (
+                        <div class="font-mono text-base text-muted-foreground/90 whitespace-nowrap inline-flex items-stretch gap-1.5 leading-tight">
+                          <div class="text-sm leading-[1.7]">{parts.currency}</div>
+                          <div class="text-3xl font-semibold text-foreground">{parts.integer}</div>
+                          <div class="flex self-stretch flex-col justify-center leading-tight">
+                            <div class="text-sm">{parts.decimal}</div>
+                            {parts.period && <div class="text-xs text-muted-foreground/60">{parts.period}</div>}
+                          </div>
+                        </div>
+                      )
+                    })()
+                  }
+                    </div>
+                  ) : null}
+                </div>
+              </div>
+            </Tag>
+          )
+        })
+      }
+    </div>
+  </div>
+</div>
+
+<script>
+  const sliders = new WeakMap<
+    HTMLElement,
+    {
+      cleanup: () => void
+    }
+  >()
+
+  const setupProductsSlider = (root: HTMLElement) => {
+    if (sliders.has(root)) return
+
+    const track = root.querySelector('[data-products-track]') as HTMLElement | null
+    const prevButton = root.querySelector('[data-products-prev]') as HTMLButtonElement | null
+    const nextButton = root.querySelector('[data-products-next]') as HTMLButtonElement | null
+
+    if (!track || !prevButton || !nextButton) return
+
+    let frame = 0
+
+    const updateControls = () => {
+      frame = 0
+      const maxScrollLeft = track.scrollWidth - track.clientWidth
+      const canScrollLeft = track.scrollLeft > 2
+      const canScrollRight = track.scrollLeft < maxScrollLeft - 2
+
+      prevButton.classList.toggle('pointer-events-none', !canScrollLeft)
+      prevButton.classList.toggle('opacity-30', !canScrollLeft)
+      prevButton.classList.toggle('opacity-100', canScrollLeft)
+      nextButton.classList.toggle('pointer-events-none', !canScrollRight)
+      nextButton.classList.toggle('opacity-30', !canScrollRight)
+      nextButton.classList.toggle('opacity-100', canScrollRight)
+    }
+
+    const scheduleControlsUpdate = () => {
+      if (frame) return
+      frame = window.requestAnimationFrame(updateControls)
+    }
+
+    const getStep = () => {
+      return track.clientWidth * (window.matchMedia('(min-width: 40rem)').matches ? 0.46 : 0.82)
+    }
+
+    const scrollByStep = (direction: 1 | -1) => {
+      track.scrollBy({
+        left: getStep() * direction,
+        behavior: 'smooth',
+      })
+    }
+
+    const abortController = new AbortController()
+    const { signal } = abortController
+
+    prevButton.addEventListener('click', () => scrollByStep(-1), { signal })
+    nextButton.addEventListener('click', () => scrollByStep(1), { signal })
+    track.addEventListener('scroll', scheduleControlsUpdate, { signal, passive: true })
+    window.addEventListener('resize', scheduleControlsUpdate, { signal, passive: true })
+
+    scheduleControlsUpdate()
+
+    sliders.set(root, {
+      cleanup: () => {
+        if (frame) {
+          window.cancelAnimationFrame(frame)
+        }
+        abortController.abort()
+      },
+    })
+  }
+
+  const initProductsSliders = () => {
+    document.querySelectorAll('[data-products-slider]').forEach((slider) => {
+      if (slider instanceof HTMLElement) {
+        setupProductsSlider(slider)
+      }
+    })
+  }
+
+  document.addEventListener('astro:page-load', initProductsSliders)
+  initProductsSliders()
+</script>
