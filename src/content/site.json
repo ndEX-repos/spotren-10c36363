@@ -1,193 +1,340 @@
 {
-  "head": {
-    "title": "Spotren™ Empresa de Software em São José do Rio Preto",
-    "description": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Autônomos de São José do Rio Preto",
-    "website": "https://spotren-6ada0a14.vercel.app",
-    "lang": "pt-BR",
-    "icon": {
-      "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/favicon/1780619710591600759-spotren-favicon-wp.ico",
-      "contentType": "image/x-icon"
+  "body": {
+    "address": "R. XV de Novembro, 3057 - Centro, São José do Rio Preto - SP, 15015-110",
+    "brand": "Spotren",
+    "category": "Software Company",
+    "city": "São José do Rio Preto",
+    "openStatus": "Aberto agora",
+    "phone": "(17) 99650-2614",
+    "rating": 5,
+    "reviewCount": 9,
+    "sections": [
+      {
+        "description": "Onde estamos.",
+        "googleMapsUri": "https://maps.google.com/?cid=18394367288973268008\u0026g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "key": "location",
+        "latitude": 0,
+        "longitude": 0,
+        "title": "Localização"
+      },
+      {
+        "description": "Veja o que clientes reais dizem sobre a experiência com o negócio.",
+        "items": [
+          {
+            "name": "Daiana Braga",
+            "quote": "Sou profissional de educação e durante a pandemia engajei na criação de um blog para dar continuidade ao meu trabalho e a partir desse blog comecei a empreender com EAD. A Analisa Site foi parceira importante na divulgação da minha plataforma digital, permitindo que clientes encotrassem meu trabalho com maior facilidade. Além disso, a AS é uma empresa com excelentes profissionais que têm me atendido muito bem. Recomendo!",
+            "rating": 5
+          },
+          {
+            "name": "Ariane",
+            "quote": "Trabalho sério, comprometimento e muito atento às demandas do mercado. Um portfólio excelente, com entregas muito profissionais e eficientes, ótima experiência!",
+            "rating": 5
+          },
+          {
+            "name": "HR História Regional",
+            "quote": "Ótimo atendimento, respondem rapido e entregam o prometido de verdade ,  poucas empresas cumprem o esperado assim.",
+            "rating": 5
+          },
+          {
+            "name": "fefe",
+            "quote": "muito bom, trabalho rápido e eficiente 👏🏻👏🏻👏🏻",
+            "rating": 5
+          },
+          {
+            "name": "Francielli pedro da costa",
+            "quote": "Muito bom, ótimo trabalho.",
+            "rating": 5
+          }
+        ],
+        "key": "reviews",
+        "title": "Avaliações"
+      },
+      {
+        "description": "Soluções disponíveis para contratar.",
+        "key": "products",
+        "products": [
+          {
+            "category": "Desenvolvimento Web",
+            "content": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
+            "priceType": "none",
+            "title": "Criação de Sites Profissionais"
+          },
+          {
+            "category": "Educação Digital",
+            "content": "Solução completa para criar e gerenciar cursos online, com suporte a vídeos, quizzes e certificados.",
+            "priceType": "none",
+            "title": "Plataforma EAD"
+          },
+          {
+            "category": "Conteúdo Digital",
+            "content": "Blog personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+            "priceType": "none",
+            "title": "Blog Corporativo"
+          }
+        ],
+        "title": "Produtos"
+      },
+      {
+        "description": "Serviços sob medida para o seu negócio.",
+        "key": "services",
+        "services": [
+          {
+            "category": "Divulgação Online",
+            "content": "Estratégias de SEO, anúncios e redes sociais para aumentar sua visibilidade e vendas.",
+            "priceType": "none",
+            "title": "Marketing Digital"
+          },
+          {
+            "category": "Suporte Técnico",
+            "content": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
+            "priceType": "none",
+            "title": "Manutenção de Sites"
+          },
+          {
+            "category": "Consultoria",
+            "content": "Análise e planejamento para digitalizar processos e otimizar resultados do seu negócio.",
+            "priceType": "none",
+            "title": "Consultoria em Transformação Digital"
+          }
+        ],
+        "title": "Serviços"
+      },
+      {
+        "description": "Dúvidas comuns sobre o site e o serviço.",
+        "faqs": [
+          {
+            "answer": "O prazo varia conforme a complexidade, mas geralmente entregamos sites institucionais em 15 a 30 dias úteis.",
+            "category": "Serviços",
+            "question": "Quanto tempo leva para criar um site?"
+          },
+          {
+            "answer": "Sim, oferecemos planos de manutenção mensal com suporte técnico e atualizações.",
+            "category": "Serviços",
+            "question": "Vocês oferecem suporte após a entrega?"
+          },
+          {
+            "answer": "Sim, nossa plataforma é escalável e suporta desde pequenos cursos até milhares de alunos simultâneos.",
+            "category": "Produtos",
+            "question": "A plataforma EAD suporta muitos alunos?"
+          },
+          {
+            "answer": "Sim, todos os sites são personalizados de acordo com a identidade visual da sua marca.",
+            "category": "Produtos",
+            "question": "Posso personalizar o design do meu site?"
+          },
+          {
+            "answer": "Atendemos clientes em todo o Brasil, com reuniões online e entregas remotas.",
+            "category": "Geral",
+            "question": "Vocês atendem apenas em São José do Rio Preto?"
+          },
+          {
+            "answer": "Os valores variam conforme as funcionalidades, mas entramos em contato para um orçamento sem compromisso.",
+            "category": "Geral",
+            "question": "Qual o investimento médio para um site?"
+          }
+        ],
+        "key": "faqs",
+        "title": "FAQs"
+      }
+    ],
+    "tagline": "Transforme sua presença digital com soluções inteligentes de software e marketing. Somos especialistas em criar sites, plataformas EAD e estratégias"
+  },
+  "catalogItems": [
+    {
+      "category": "Desenvolvimento Web",
+      "content": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
+      "priceType": "none",
+      "title": "Criação de Sites Profissionais",
+      "type": "product"
     },
-    "ogImage": {
-      "url": "",
-      "contentType": ""
+    {
+      "category": "Educação Digital",
+      "content": "Solução completa para criar e gerenciar cursos online, com suporte a vídeos, quizzes e certificados.",
+      "priceType": "none",
+      "title": "Plataforma EAD",
+      "type": "product"
+    },
+    {
+      "category": "Conteúdo Digital",
+      "content": "Blog personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+      "priceType": "none",
+      "title": "Blog Corporativo",
+      "type": "product"
+    },
+    {
+      "category": "Divulgação Online",
+      "content": "Estratégias de SEO, anúncios e redes sociais para aumentar sua visibilidade e vendas.",
+      "priceType": "none",
+      "title": "Marketing Digital",
+      "type": "service"
+    },
+    {
+      "category": "Suporte Técnico",
+      "content": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
+      "priceType": "none",
+      "title": "Manutenção de Sites",
+      "type": "service"
+    },
+    {
+      "category": "Consultoria",
+      "content": "Análise e planejamento para digitalizar processos e otimizar resultados do seu negócio.",
+      "priceType": "none",
+      "title": "Consultoria em Transformação Digital",
+      "type": "service"
     }
+  ],
+  "head": {
+    "lang": "pt-BR",
+    "title": "Spotren™ | São José do Rio Preto"
+  },
+  "posts": [
+    {
+      "author": "Spotren",
+      "coverContentType": "image/png",
+      "coverFileName": "solucoes-inteligentes-software-cover.png",
+      "coverUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/posts/cover/1781043495479959141-solucoes-inteligentes-software-cover.png",
+      "description": "Descubra como a Spotren transforma negócios com software personalizado e estratégias digitais em São José do Rio Preto.",
+      "markdownFileName": "solucoes-inteligentes-software.md",
+      "markdownUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/posts/markdown/1781043496535260092-solucoes-inteligentes-software.md",
+      "pubDate": "2026-06-09",
+      "recommend": false,
+      "slug": "solucoes-inteligentes-software",
+      "tags": [
+        "desenvolvimento",
+        "marketing digital"
+      ],
+      "title": "Soluções Inteligentes em Software"
+    },
+    {
+      "author": "Spotren",
+      "coverContentType": "image/png",
+      "coverFileName": "criacao-sites-profissionais-cover.png",
+      "coverUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/posts/cover/1781043497165132975-criacao-sites-profissionais-cover.png",
+      "description": "A Spotren cria sites modernos e responsivos para empresas em São José do Rio Preto. Atraia mais clientes com uma presença online de impacto.",
+      "markdownFileName": "criacao-sites-profissionais.md",
+      "markdownUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/posts/markdown/1781043497478856109-criacao-sites-profissionais.md",
+      "pubDate": "2026-06-09",
+      "recommend": false,
+      "slug": "criacao-sites-profissionais",
+      "tags": [
+        "design",
+        "sites"
+      ],
+      "title": "Criação de Sites Profissionais"
+    }
+  ],
+  "schemaGraph": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São José do Rio Preto",
+          "streetAddress": "R. XV de Novembro, 3057 - Centro, São José do Rio Preto - SP, 15015-110"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 5,
+          "reviewCount": 9
+        },
+        "name": "Spotren™",
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Daiana Braga"
+            },
+            "datePublished": "2025-05-10T11:55:36.610811Z",
+            "reviewBody": "Sou profissional de educação e durante a pandemia engajei na criação de um blog para dar continuidade ao meu trabalho e a partir desse blog comecei a empreender com EAD. A Analisa Site foi parceira importante na divulgação da minha plataforma digital, permitindo que clientes encotrassem meu trabalho com maior facilidade. Além disso, a AS é uma empresa com excelentes profissionais que têm me atendido muito bem. Recomendo!",
+            "reviewRating": {
+              "@type": "Rating",
+              "bestRating": 5,
+              "ratingValue": 5,
+              "worstRating": 1
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Ariane"
+            },
+            "datePublished": "2024-09-05T23:13:57.445030Z",
+            "reviewBody": "Trabalho sério, comprometimento e muito atento às demandas do mercado. Um portfólio excelente, com entregas muito profissionais e eficientes, ótima experiência!",
+            "reviewRating": {
+              "@type": "Rating",
+              "bestRating": 5,
+              "ratingValue": 5,
+              "worstRating": 1
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "HR História Regional"
+            },
+            "datePublished": "2024-09-05T11:13:57.729191Z",
+            "reviewBody": "Ótimo atendimento, respondem rapido e entregam o prometido de verdade ,  poucas empresas cumprem o esperado assim.",
+            "reviewRating": {
+              "@type": "Rating",
+              "bestRating": 5,
+              "ratingValue": 5,
+              "worstRating": 1
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "fefe"
+            },
+            "datePublished": "2024-09-04T13:17:19.063838Z",
+            "reviewBody": "muito bom, trabalho rápido e eficiente 👏🏻👏🏻👏🏻",
+            "reviewRating": {
+              "@type": "Rating",
+              "bestRating": 5,
+              "ratingValue": 5,
+              "worstRating": 1
+            }
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Francielli pedro da costa"
+            },
+            "datePublished": "2024-09-04T13:05:06.535566Z",
+            "reviewBody": "Muito bom, ótimo trabalho.",
+            "reviewRating": {
+              "@type": "Rating",
+              "bestRating": 5,
+              "ratingValue": 5,
+              "worstRating": 1
+            }
+          }
+        ],
+        "sameAs": [
+          "https://maps.google.com/?cid=18394367288973268008\u0026g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+        ],
+        "telephone": "(17) 99650-2614"
+      }
+    ]
   },
   "socialLinks": [
     {
       "name": "facebook",
-      "url": "https://www.facebook.com/rafa.spotren"
+      "url": "https://www.facebook.com/rafa.spotren/"
     },
     {
       "name": "instagram",
-      "url": "https://www.instagram.com/spotren.now"
+      "url": "https://www.instagram.com/rafa.spotren/"
     },
     {
       "name": "linkedin",
       "url": "https://www.linkedin.com/company/spotren"
     }
-  ],
-  "body": {
-    "logo": {
-      "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/logo/1780619696492441545-spotren-favicon-wp-optmz.png",
-      "alt": "Logo Spotren™ Empresa de Software São José do Rio Preto"
-    },
-    "brand": "Spotren™",
-    "tagline": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Liberais / Autônomos de São José do Rio Preto",
-    "category": "Empresa de Software",
-    "city": "São José do Rio Preto",
-    "rating": 5,
-    "reviewCount": 9,
-    "phone": "(17) 99650-2614",
-    "address": "R. XV de Novembro, 3057 - Centro, São José do Rio Preto - SP, 15015-110",
-    "openStatus": "Aberto agora",
-    "sections": [
-      {
-        "key": "location",
-        "title": "Localização",
-        "description": "Onde estamos.",
-        "latitude": -20.813157699999998,
-        "longitude": -49.3796621,
-        "googleMapsUri": "https://maps.google.com/?cid=18394367288973268008&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
-      },
-      {
-        "key": "reviews",
-        "title": "Avaliações",
-        "description": "Veja o que clientes reais dizem sobre a experiência com a Spotren™",
-        "items": [
-          {
-            "name": "Ariane",
-            "rating": 5,
-            "quote": "Trabalho sério, comprometimento e muito atento às demandas do mercado. Um portfólio excelente, com entregas muito profissionais e eficientes, ótima experiência!"
-          },
-          {
-            "name": "HR História Regional",
-            "rating": 5,
-            "quote": "Ótimo atendimento, respondem rapido e entregam o prometido de verdade ,  poucas empresas cumprem o esperado assim."
-          }
-        ]
-      },
-      {
-        "key": "products",
-        "title": "Produtos",
-        "description": "Soluções disponíveis para contratar agora.",
-        "products": [
-          {
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
-            "title": "ndEX Builder v1",
-            "category": "Construtor de Sites",
-            "priceType": "none",
-            "price": "70.40",
-            "period": "",
-            "content": "Site otimizado para Negócios Locais",
-            "ctaText": "Assinar",
-            "url": "https://wa.me/17996502614"
-          },
-          {
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
-            "title": "ndEX Builder v1",
-            "category": "Construtor de Sites",
-            "priceType": "free",
-            "price": "70.40",
-            "period": "",
-            "content": "Site otimizado para Negócios Locais",
-            "ctaText": "Assinar",
-            "url": "https://wa.me/17996502614"
-          },
-          {
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
-            "title": "ndEX Builder v1",
-            "category": "Construtor de Sites",
-            "priceType": "fixed",
-            "price": "70.40",
-            "period": "/mês",
-            "content": "Site otimizado para Negócios Locais",
-            "ctaText": "Assinar",
-            "url": "https://wa.me/17996502614"
-          },
-          {
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
-            "title": "ndEX Builder v1",
-            "category": "Construtor de Sites",
-            "priceType": "starting_at",
-            "price": "70.40",
-            "period": "",
-            "content": "Site otimizado para Negócios Locais",
-            "ctaText": "Assinar",
-            "url": "https://wa.me/17996502614"
-          },
-          {
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/6ada0a14-cd51-48bd-8f54-acc6e3658549/catalog/1780620491966448652-teste-thumbs-spotren-ndex.avif",
-            "title": "ndEX Builder v1",
-            "category": "Construtor de Sites",
-            "priceType": "fixed",
-            "price": "70.40",
-            "period": "",
-            "content": "Site otimizado para Negócios Locais",
-            "ctaText": "Assinar",
-            "url": "https://wa.me/17996502614"
-          }
-        ]
-      },
-      {
-        "key": "services",
-        "title": "Serviços",
-        "description": "Software sob medida para o seu negócio.",
-        "services": [
-          {
-            "imageUrl": "",
-            "title": "Software / SaaS Personalizado",
-            "category": "",
-            "priceType": "starting_at",
-            "price": "R$ 1.500",
-            "content": "",
-            "ctaText": "",
-            "url": ""
-          },
-          {
-            "imageUrl": "",
-            "title": "Site para Advogados",
-            "category": "",
-            "priceType": "fixed",
-            "price": "R$ 750",
-            "content": "",
-            "ctaText": "",
-            "url": ""
-          },
-          {
-            "imageUrl": "",
-            "title": "Site para Advogados",
-            "category": "",
-            "priceType": "free",
-            "price": "R$ 750",
-            "content": "",
-            "ctaText": "",
-            "url": ""
-          },
-          {
-            "imageUrl": "",
-            "title": "Site para Advogados",
-            "category": "",
-            "priceType": "none",
-            "price": "R$ 750",
-            "content": "",
-            "ctaText": "",
-            "url": ""
-          }
-        ]
-      },
-      {
-        "key": "faqs",
-        "title": "FAQs",
-        "description": "Perguntas comuns sobre o site e o serviço.",
-        "faqs": [
-          {
-            "category": "Performance",
-            "question": "O site da ndEX é rápido?",
-            "answer": "Sim, nossos sites recebem Nota 100/100 no Google PageSpeed Insights."
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }
