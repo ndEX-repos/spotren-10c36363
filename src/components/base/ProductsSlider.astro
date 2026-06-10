@@ -1,8 +1,10 @@
 ---
+import { CAROUSEL_LABELS } from '~/config'
 import { formatPriceParts } from '~/lib/utils'
 
 type ProductItem = {
   imageSrc?: string
+  thumbSrc?: string
   name: string
   category: string
   price?: string
@@ -29,7 +31,7 @@ const { title, description, products }: Props = Astro.props
     <div class="hidden items-center gap-3 sm:flex">
       <button
         type="button"
-        aria-label="Previous products"
+        aria-label={CAROUSEL_LABELS.previousProducts}
         data-products-prev
         class="inline-flex size-11 items-center justify-center rounded-full border border-border/60 text-foreground transition hover:bg-accent pointer-events-none opacity-30"
       >
@@ -37,7 +39,7 @@ const { title, description, products }: Props = Astro.props
       </button>
       <button
         type="button"
-        aria-label="Next products"
+        aria-label={CAROUSEL_LABELS.nextProducts}
         data-products-next
         class="inline-flex size-11 items-center justify-center rounded-full border border-border/60 text-foreground transition hover:bg-accent"
       >
@@ -62,8 +64,8 @@ const { title, description, products }: Props = Astro.props
             >
               <div class="border-b border-border/40 bg-muted/20">
                 {
-                  product.imageSrc ? (
-                    <img src={product.imageSrc} alt={product.name} loading="lazy" class="aspect-video w-full object-cover" draggable="false" />
+                  product.imageSrc || product.thumbSrc ? (
+                    <img src={product.thumbSrc || product.imageSrc} alt={product.name} width="321" height="181" loading="lazy" decoding="async" class="aspect-video w-full object-cover" draggable="false" />
                   ) : (
                     <div class="flex aspect-video w-full items-center justify-center bg-muted/40 text-muted-foreground">
                       <span class="icon-[mdi--image-outline] size-10"></span>
