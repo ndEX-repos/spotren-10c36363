@@ -31,6 +31,7 @@ const siteOpenStatus = siteData.body.openStatus
 const siteCity = siteData.body.city || ''
 const phoneDigits = sitePhone.replace(/\D/g, '')
 const phoneHref = CONTACT_CONFIG.wap ? `https://wa.me/${phoneDigits}` : `tel:${phoneDigits}`
+const phoneLabel = CONTACT_CONFIG.wap ? HOME_LABELS.contactInfoWhatsApp : HOME_LABELS.contactInfoPhone
 const uberClientId = import.meta.env.PUBLIC_UBER_CLIENT_ID
 const generatedLocationMapLightURL = '/generated/location-map-light.avif'
 const generatedLocationMapDarkURL = '/generated/location-map-dark.avif'
@@ -118,7 +119,7 @@ if (hasPinnedPosts) {
                 >
                   <span class:list={[CONTACT_CONFIG.wap ? 'icon-[ri--whatsapp-fill]' : 'icon-[mdi--phone]', 'mt-0.5 size-6 shrink-0 text-foreground']}></span>
                   <div>
-                    <p class="text-xs tracking-wide text-muted-foreground">{HOME_LABELS.contactUs}</p>
+                    <p class="text-sm text-muted-foreground">{phoneLabel}</p>
                     <p class="font-mono text-sm font-medium text-muted-foreground">{sitePhoneDisplay || sitePhone}</p>
                   </div>
                 </a>
@@ -149,7 +150,7 @@ if (hasPinnedPosts) {
       </div>
     </div>
     {
-      sections.map((section) => (
+      sections.map((section, sectionIndex) => (
         <>
           <SectionDivider />
           <div class="home-section-shell">
@@ -172,7 +173,10 @@ if (hasPinnedPosts) {
                   <ProductsSlider
                     title={section.title}
                     description={section.description}
-                    products={section.products.map((product) => ({
+                    products={section.products.map((product, productIndex) => ({
+                      thumbSrc: existsSync(path.resolve(process.cwd(), `public/generated/product-thumbs/${sectionIndex}-${productIndex}.avif`))
+                        ? `/generated/product-thumbs/${sectionIndex}-${productIndex}.avif`
+                        : undefined,
                       imageSrc: product.imageUrl,
                       name: product.title,
                       category: product.category,
@@ -196,10 +200,12 @@ if (hasPinnedPosts) {
                           : service.priceType === 'fixed'
                             ? '__fixed_icon__'
                             : formatServiceType(service.priceType),
+                      currency: service.currency || undefined,
                       price:
                         service.priceType === 'fixed' || service.priceType === 'starting_at'
                           ? service.price || undefined
                           : undefined,
+                      period: service.period || undefined,
                     }))}
                   />
                 </>
