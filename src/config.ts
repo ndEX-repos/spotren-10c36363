@@ -34,9 +34,7 @@ export const NAVIGATION_CONFIG = {
 }
 
 export const HOME_LABELS = {
-  contactUs: 'Chamar no Whats',
-  contactInfoWhatsApp: 'WhatsApp',
-  contactInfoPhone: 'Telefone',
+  contactUs: 'Contato',
   socialLinkAriaLabelPrefix: 'Link do',
   locationDescriptionTemplate: 'Onde estamos em {city}',
   openMapTitle: 'Abrir Mapa',
@@ -83,47 +81,6 @@ export const FOOTER_CONFIG = {
   sourceUrl: 'https://github.com/Spotren',
 }
 
-export const FOOTER_LABELS = {
-  craftedBy: 'feito por',
-  sourceLinkLabel: 'Código-fonte no GitHub',
-}
-
-export const THEME_LABELS = {
-  switchTheme: 'Alternar tema',
-}
-
-export const SEARCH_LABELS = {
-  openSearch: 'Buscar',
-  openSearchWithShortcut: 'Buscar (Ctrl+K)',
-  placeholder: 'Buscar',
-  exactMatch: 'Correspondência exata',
-  exactShortLabel: 'Exata',
-  typeToSearch: 'Digite para buscar',
-  noResultsFound: 'Nenhum resultado encontrado',
-  noResultsInDevelopment: 'Sem resultados no modo de desenvolvimento',
-}
-
-export const CAROUSEL_LABELS = {
-  previousReview: 'Avaliação anterior',
-  nextReview: 'Próxima avaliação',
-  previousProducts: 'Produtos anteriores',
-  nextProducts: 'Próximos produtos',
-}
-
-export const BADGE_LABELS = {
-  taggedPostsAriaLabelTemplate: 'Ver posts com a tag {tag}',
-  taggedPostsTitleTemplate: 'Posts com a tag {tag}',
-  recommendedPost: 'Post recomendado',
-  moreTagSuffix: 'a mais',
-}
-
-export const LICENSE_LABELS = {
-  author: 'Autor:',
-  post: 'Post:',
-  link: 'Link:',
-  license: 'Licença:',
-}
-
 //--- Posts Page Config ---
 export const POSTS_CONFIG: PostConfig = {
   title: 'Posts',
@@ -161,17 +118,4 @@ export const TAGS_CONFIG: TagsConfig = {
   title: 'Tags',
   description: 'All tags of Posts',
   introduce: 'All the tags for posts are here, you can click to filter them.',
-}
-
-export const TAGS_LABELS = {
-  breadcrumb: 'Tags',
-  noTagsAvailable: 'Nenhuma tag disponível',
-  totalTagsSuffix: 'tags no total',
-  totalPostsSuffix: 'posts no total',
-  singlePost: 'post',
-  multiplePosts: 'posts',
-}
-
-export const TOC_LABELS = {
-  backToTop: 'Voltar ao topo',
 }
