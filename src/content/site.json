@@ -17,8 +17,8 @@
         "description": "Onde estamos.",
         "googleMapsUri": "https://maps.google.com/?cid=18394367288973268008\u0026g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "key": "location",
-        "latitude": 0,
-        "longitude": 0,
+        "latitude": -20.813157699999998,
+        "longitude": -49.3796621,
         "title": "Localização"
       },
       {
@@ -43,24 +43,24 @@
         "key": "products",
         "products": [
           {
-            "category": "Revenda",
-            "content": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
-            "ctaText": "Assinar",
+            "category": "Sites Locais",
+            "content": "Construtor de sites locais pronto para colocar empresas e profissionais no ar com páginas rápidas, responsivas e otimizadas para SEO local. Ideal para negócios que querem aparecer melhor no Google, destacar serviços, mostrar avaliações, produtos e formas de contato, com foco em geração de leads e presença digital profissional.",
+            "ctaText": "Construir um site no ndEX",
             "currency": "R$",
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781044315066712419-teste-thumbs-spotren-ndex.avif",
-            "period": "/m",
-            "price": "70.40",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781114579746364752-construtor-de-sites-locais-ndex_optmz.png",
+            "period": "/ mes",
+            "price": "35.20",
             "priceType": "fixed",
-            "title": "Construtor de Sites ndEX",
-            "url": "https://wa.me/17996502614"
+            "title": "Construtor de Sites Locais ndEX",
+            "url": "https://wa.me/17996502614?text=ndEX"
           },
           {
             "category": "Sites Locais",
-            "content": "Solução completa para criar e gerenciar cursos online, com suporte a vídeos, quizzes e certificados.",
-            "ctaText": "Assinar",
+            "content": "Site profissional para comerciantes e profissionais locais que querem ser encontrados no Google, apresentar serviços com clareza e transformar visitas em contatos pelo WhatsApp. Ideal para negócios de bairro, autônomos e pequenos escritórios que precisam de uma presença online simples, rápida e focada em conversão.",
+            "ctaText": "Chamar no Whats",
             "currency": "R$",
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045043090646133-teste-thumbs-spotren-ndex.avif",
-            "period": "/m",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781110880348381007-site-para-comerciantes-e-profissionais-locais-spotren_optmz.png",
+            "period": "/ mes",
             "price": "70,40",
             "priceType": "fixed",
             "title": "Site para Comerciantes e Profissionais Locais",
@@ -68,13 +68,25 @@
           },
           {
             "category": "WordPress",
-            "content": "Blog personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
-            "ctaText": "Entrar em contato",
+            "content": "Site personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+            "ctaText": "Contato",
             "currency": "R$",
             "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045257876600535-teste-thumbs-spotren-ndex.avif",
-            "price": "750,00",
+            "period": "/ mes",
+            "price": "250",
             "priceType": "starting_at",
             "title": "Sites Institucionais Corporativos",
+            "url": "https://wa.me/17996502614"
+          },
+          {
+            "category": "WordPress",
+            "ctaText": "Contato",
+            "currency": "R$",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781103327337078961-teste-thumbs-spotren-ndex.avif",
+            "period": "/ mes",
+            "price": "750",
+            "priceType": "starting_at",
+            "title": "Lojas Virtuais WooCommerce",
             "url": "https://wa.me/17996502614"
           }
         ],
@@ -85,26 +97,47 @@
         "key": "services",
         "services": [
           {
-            "category": "Marketing Digital",
-            "content": "Estratégias de SEO, anúncios e redes sociais para aumentar sua visibilidade e vendas.",
-            "ctaText": "Entrar em contato",
+            "category": "Suporte Técnico",
+            "content": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
+            "ctaText": "Contratar",
             "currency": "R$",
-            "price": "550",
+            "price": "350",
             "priceType": "starting_at",
-            "title": "Tráfego Pago",
+            "title": "Manutenção em Sites e Lojas Virtuais",
             "url": "https://wa.me/17996502614"
           },
           {
-            "category": "Suporte Técnico",
-            "content": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
-            "priceType": "none",
-            "title": "Manutenção de Sites"
+            "category": "Marketing Digital",
+            "ctaText": "Contratar",
+            "currency": "R$",
+            "price": "450",
+            "priceType": "starting_at",
+            "title": "Melhorias de SEO Técnico",
+            "url": "https://wa.me/17996502614"
           },
           {
-            "category": "Consultoria",
-            "content": "Análise e planejamento para digitalizar processos e otimizar resultados do seu negócio.",
+            "category": "GMN",
+            "ctaText": "Contratar",
+            "currency": "R$",
+            "period": "/ mes",
+            "price": "450",
+            "priceType": "fixed",
+            "title": "Gestão de perfil do Google Meu Negócio",
+            "url": "https://wa.me/17996502614"
+          },
+          {
+            "category": "Call",
+            "ctaText": "Agendar",
+            "priceType": "free",
+            "title": "Reunião de Alinhamento",
+            "url": "https://meet.brevo.com/rafa-santos"
+          },
+          {
+            "category": "Software",
+            "ctaText": "Contato",
             "priceType": "none",
-            "title": "Consultoria em Transformação Digital"
+            "title": "SaaS ou Software Desktop",
+            "url": "https://wa.me/17996502614"
           }
         ],
         "title": "Serviços"
@@ -121,11 +154,6 @@
             "answer": "Sim, oferecemos planos de manutenção mensal com suporte técnico e atualizações.",
             "category": "Serviços",
             "question": "Vocês oferecem suporte após a entrega?"
-          },
-          {
-            "answer": "Sim, nossa plataforma é escalável e suporta desde pequenos cursos até milhares de alunos simultâneos.",
-            "category": "Produtos",
-            "question": "A plataforma EAD suporta muitos alunos?"
           },
           {
             "answer": "Sim, todos os sites são personalizados de acordo com a identidade visual da sua marca.",
@@ -151,25 +179,25 @@
   },
   "catalogItems": [
     {
-      "category": "Revenda",
-      "content": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
-      "ctaText": "Assinar",
+      "category": "Sites Locais",
+      "content": "Construtor de sites locais pronto para colocar empresas e profissionais no ar com páginas rápidas, responsivas e otimizadas para SEO local. Ideal para negócios que querem aparecer melhor no Google, destacar serviços, mostrar avaliações, produtos e formas de contato, com foco em geração de leads e presença digital profissional.",
+      "ctaText": "Construir um site no ndEX",
       "currency": "R$",
-      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781044315066712419-teste-thumbs-spotren-ndex.avif",
-      "period": "/m",
-      "price": "70.40",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781114579746364752-construtor-de-sites-locais-ndex_optmz.png",
+      "period": "/ mes",
+      "price": "35.20",
       "priceType": "fixed",
-      "title": "Construtor de Sites ndEX",
+      "title": "Construtor de Sites Locais ndEX",
       "type": "product",
-      "url": "https://wa.me/17996502614"
+      "url": "https://wa.me/17996502614?text=ndEX"
     },
     {
       "category": "Sites Locais",
-      "content": "Solução completa para criar e gerenciar cursos online, com suporte a vídeos, quizzes e certificados.",
-      "ctaText": "Assinar",
+      "content": "Site profissional para comerciantes e profissionais locais que querem ser encontrados no Google, apresentar serviços com clareza e transformar visitas em contatos pelo WhatsApp. Ideal para negócios de bairro, autônomos e pequenos escritórios que precisam de uma presença online simples, rápida e focada em conversão.",
+      "ctaText": "Chamar no Whats",
       "currency": "R$",
-      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045043090646133-teste-thumbs-spotren-ndex.avif",
-      "period": "/m",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781110880348381007-site-para-comerciantes-e-profissionais-locais-spotren_optmz.png",
+      "period": "/ mes",
       "price": "70,40",
       "priceType": "fixed",
       "title": "Site para Comerciantes e Profissionais Locais",
@@ -178,40 +206,76 @@
     },
     {
       "category": "WordPress",
-      "content": "Blog personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
-      "ctaText": "Entrar em contato",
+      "content": "Site personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+      "ctaText": "Contato",
       "currency": "R$",
       "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045257876600535-teste-thumbs-spotren-ndex.avif",
-      "price": "750,00",
+      "period": "/ mes",
+      "price": "250",
       "priceType": "starting_at",
       "title": "Sites Institucionais Corporativos",
       "type": "product",
       "url": "https://wa.me/17996502614"
     },
     {
-      "category": "Marketing Digital",
-      "content": "Estratégias de SEO, anúncios e redes sociais para aumentar sua visibilidade e vendas.",
-      "ctaText": "Entrar em contato",
+      "category": "WordPress",
+      "ctaText": "Contato",
       "currency": "R$",
-      "price": "550",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781103327337078961-teste-thumbs-spotren-ndex.avif",
+      "period": "/ mes",
+      "price": "750",
       "priceType": "starting_at",
-      "title": "Tráfego Pago",
-      "type": "service",
+      "title": "Lojas Virtuais WooCommerce",
+      "type": "product",
       "url": "https://wa.me/17996502614"
     },
     {
       "category": "Suporte Técnico",
       "content": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
-      "priceType": "none",
-      "title": "Manutenção de Sites",
-      "type": "service"
+      "ctaText": "Contratar",
+      "currency": "R$",
+      "price": "350",
+      "priceType": "starting_at",
+      "title": "Manutenção em Sites e Lojas Virtuais",
+      "type": "service",
+      "url": "https://wa.me/17996502614"
     },
     {
-      "category": "Consultoria",
-      "content": "Análise e planejamento para digitalizar processos e otimizar resultados do seu negócio.",
+      "category": "Marketing Digital",
+      "ctaText": "Contratar",
+      "currency": "R$",
+      "price": "450",
+      "priceType": "starting_at",
+      "title": "Melhorias de SEO Técnico",
+      "type": "service",
+      "url": "https://wa.me/17996502614"
+    },
+    {
+      "category": "GMN",
+      "ctaText": "Contratar",
+      "currency": "R$",
+      "period": "/ mes",
+      "price": "450",
+      "priceType": "fixed",
+      "title": "Gestão de perfil do Google Meu Negócio",
+      "type": "service",
+      "url": "https://wa.me/17996502614"
+    },
+    {
+      "category": "Call",
+      "ctaText": "Agendar",
+      "priceType": "free",
+      "title": "Reunião de Alinhamento",
+      "type": "service",
+      "url": "https://meet.brevo.com/rafa-santos"
+    },
+    {
+      "category": "Software",
+      "ctaText": "Contato",
       "priceType": "none",
-      "title": "Consultoria em Transformação Digital",
-      "type": "service"
+      "title": "SaaS ou Software Desktop",
+      "type": "service",
+      "url": "https://wa.me/17996502614"
     }
   ],
   "head": {
@@ -277,6 +341,11 @@
         },
         "category": "Empresa de Software",
         "description": "Empresa de Software especializada em Sistemas, Sites e Plataformas para Comércios Locais e Profissionais Autônomos de São José do Rio Preto",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -20.813157699999998,
+          "longitude": -49.3796621
+        },
         "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/logo/1781043876777605604-spotren-favicon-wp-optmz.png",
         "logo": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/logo/1781043876777605604-spotren-favicon-wp-optmz.png",
         "name": "Spotren™",
@@ -342,14 +411,6 @@
             "@type": "Question",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sim, nossa plataforma é escalável e suporta desde pequenos cursos até milhares de alunos simultâneos."
-            },
-            "name": "A plataforma EAD suporta muitos alunos?"
-          },
-          {
-            "@type": "Question",
-            "acceptedAnswer": {
-              "@type": "Answer",
               "text": "Sim, todos os sites são personalizados de acordo com a identidade visual da sua marca."
             },
             "name": "Posso personalizar o design do meu site?"
@@ -374,23 +435,23 @@
       },
       {
         "@type": "Product",
-        "category": "Revenda",
-        "description": "Sites responsivos e otimizados para SEO, com design moderno e foco em conversão.",
-        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781044315066712419-teste-thumbs-spotren-ndex.avif",
-        "name": "Construtor de Sites ndEX",
+        "category": "Sites Locais",
+        "description": "Construtor de sites locais pronto para colocar empresas e profissionais no ar com páginas rápidas, responsivas e otimizadas para SEO local. Ideal para negócios que querem aparecer melhor no Google, destacar serviços, mostrar avaliações, produtos e formas de contato, com foco em geração de leads e presença digital profissional.",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781114579746364752-construtor-de-sites-locais-ndex_optmz.png",
+        "name": "Construtor de Sites Locais ndEX",
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
-          "price": "70.40",
-          "url": "https://wa.me/17996502614"
+          "price": "35.20",
+          "url": "https://wa.me/17996502614?text=ndEX"
         },
-        "url": "https://wa.me/17996502614"
+        "url": "https://wa.me/17996502614?text=ndEX"
       },
       {
         "@type": "Product",
         "category": "Sites Locais",
-        "description": "Solução completa para criar e gerenciar cursos online, com suporte a vídeos, quizzes e certificados.",
-        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045043090646133-teste-thumbs-spotren-ndex.avif",
+        "description": "Site profissional para comerciantes e profissionais locais que querem ser encontrados no Google, apresentar serviços com clareza e transformar visitas em contatos pelo WhatsApp. Ideal para negócios de bairro, autônomos e pequenos escritórios que precisam de uma presença online simples, rápida e focada em conversão.",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781110880348381007-site-para-comerciantes-e-profissionais-locais-spotren_optmz.png",
         "name": "Site para Comerciantes e Profissionais Locais",
         "offers": {
           "@type": "Offer",
@@ -403,26 +464,26 @@
       {
         "@type": "Product",
         "category": "WordPress",
-        "description": "Blog personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+        "description": "Site personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
         "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045257876600535-teste-thumbs-spotren-ndex.avif",
         "name": "Sites Institucionais Corporativos",
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
-          "price": "750,00",
+          "price": "250",
           "url": "https://wa.me/17996502614"
         },
         "url": "https://wa.me/17996502614"
       },
       {
-        "@type": "Service",
-        "category": "Marketing Digital",
-        "description": "Estratégias de SEO, anúncios e redes sociais para aumentar sua visibilidade e vendas.",
-        "name": "Tráfego Pago",
+        "@type": "Product",
+        "category": "WordPress",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781103327337078961-teste-thumbs-spotren-ndex.avif",
+        "name": "Lojas Virtuais WooCommerce",
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
-          "price": "550",
+          "price": "750",
           "url": "https://wa.me/17996502614"
         },
         "url": "https://wa.me/17996502614"
@@ -431,13 +492,61 @@
         "@type": "Service",
         "category": "Suporte Técnico",
         "description": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
-        "name": "Manutenção de Sites"
+        "name": "Manutenção em Sites e Lojas Virtuais",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "price": "350",
+          "url": "https://wa.me/17996502614"
+        },
+        "url": "https://wa.me/17996502614"
       },
       {
         "@type": "Service",
-        "category": "Consultoria",
-        "description": "Análise e planejamento para digitalizar processos e otimizar resultados do seu negócio.",
-        "name": "Consultoria em Transformação Digital"
+        "category": "Marketing Digital",
+        "name": "Melhorias de SEO Técnico",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "price": "450",
+          "url": "https://wa.me/17996502614"
+        },
+        "url": "https://wa.me/17996502614"
+      },
+      {
+        "@type": "Service",
+        "category": "GMN",
+        "name": "Gestão de perfil do Google Meu Negócio",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "price": "450",
+          "url": "https://wa.me/17996502614"
+        },
+        "url": "https://wa.me/17996502614"
+      },
+      {
+        "@type": "Service",
+        "category": "Call",
+        "name": "Reunião de Alinhamento",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "price": "0",
+          "url": "https://meet.brevo.com/rafa-santos"
+        },
+        "url": "https://meet.brevo.com/rafa-santos"
+      },
+      {
+        "@type": "Service",
+        "category": "Software",
+        "name": "SaaS ou Software Desktop",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "url": "https://wa.me/17996502614"
+        },
+        "url": "https://wa.me/17996502614"
       }
     ]
   },
