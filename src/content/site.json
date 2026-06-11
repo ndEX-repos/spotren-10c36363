@@ -98,9 +98,10 @@
         "services": [
           {
             "category": "Suporte Técnico",
-            "content": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
-            "ctaText": "Contratar",
+            "content": "Cuidamos da manutenção contínua de sites e lojas virtuais com correções, atualizações, ajustes de desempenho, revisão de integrações, suporte técnico e prevenção de falhas.",
+            "ctaText": "Manter meu site",
             "currency": "R$",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781199845027128424-teste-thumbs-spotren-ndex.avif",
             "price": "350",
             "priceType": "starting_at",
             "title": "Manutenção em Sites e Lojas Virtuais",
@@ -231,9 +232,10 @@
     },
     {
       "category": "Suporte Técnico",
-      "content": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
-      "ctaText": "Contratar",
+      "content": "Cuidamos da manutenção contínua de sites e lojas virtuais com correções, atualizações, ajustes de desempenho, revisão de integrações, suporte técnico e prevenção de falhas.",
+      "ctaText": "Manter meu site",
       "currency": "R$",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781199845027128424-teste-thumbs-spotren-ndex.avif",
       "price": "350",
       "priceType": "starting_at",
       "title": "Manutenção em Sites e Lojas Virtuais",
@@ -491,7 +493,8 @@
       {
         "@type": "Service",
         "category": "Suporte Técnico",
-        "description": "Atualizações, backups e suporte contínuo para manter seu site seguro e funcionando.",
+        "description": "Cuidamos da manutenção contínua de sites e lojas virtuais com correções, atualizações, ajustes de desempenho, revisão de integrações, suporte técnico e prevenção de falhas.",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781199845027128424-teste-thumbs-spotren-ndex.avif",
         "name": "Manutenção em Sites e Lojas Virtuais",
         "offers": {
           "@type": "Offer",
