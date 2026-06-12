@@ -14,7 +14,7 @@
     "reviewCount": 9,
     "sections": [
       {
-        "description": "Onde estamos.",
+        "description": "Onde estamos",
         "googleMapsUri": "https://maps.google.com/?cid=18394367288973268008\u0026g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
         "key": "location",
         "latitude": -20.813157699999998,
@@ -22,7 +22,7 @@
         "title": "Localização"
       },
       {
-        "description": "Veja o que clientes reais dizem sobre a experiência com o negócio.",
+        "description": "Veja o que clientes reais dizem sobre a experiência com a Spotren™",
         "items": [
           {
             "name": "Ariane",
@@ -39,7 +39,7 @@
         "title": "Avaliações"
       },
       {
-        "description": "Soluções disponíveis para contratar.",
+        "description": "Soluções disponíveis para contratar agora",
         "key": "products",
         "products": [
           {
@@ -47,7 +47,7 @@
             "content": "Construtor de sites locais pronto para colocar empresas e profissionais no ar com páginas rápidas, responsivas e otimizadas para SEO local. Ideal para negócios que querem aparecer melhor no Google, destacar serviços, mostrar avaliações, produtos e formas de contato, com foco em geração de leads e presença digital profissional.",
             "ctaText": "Construir um site no ndEX",
             "currency": "R$",
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781114579746364752-construtor-de-sites-locais-ndex_optmz.png",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280816307037074-construtor-de-sites-locais-ndex-spotren.png",
             "period": "/ mes",
             "price": "35.20",
             "priceType": "fixed",
@@ -59,7 +59,7 @@
             "content": "Site profissional para comerciantes e profissionais locais que querem ser encontrados no Google, apresentar serviços com clareza e transformar visitas em contatos pelo WhatsApp. Ideal para negócios de bairro, autônomos e pequenos escritórios que precisam de uma presença online simples, rápida e focada em conversão.",
             "ctaText": "Chamar no Whats",
             "currency": "R$",
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781110880348381007-site-para-comerciantes-e-profissionais-locais-spotren_optmz.png",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280773196093698-site-para-comerciantes-e-profissionais-locais-spotren.png",
             "period": "/ mes",
             "price": "70,40",
             "priceType": "fixed",
@@ -68,10 +68,10 @@
           },
           {
             "category": "WordPress",
-            "content": "Site personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+            "content": "Criamos sites institucionais corporativos para apresentar sua empresa com clareza, fortalecer a marca e transformar visitas em contatos com uma presença digital profissional.",
             "ctaText": "Contato",
             "currency": "R$",
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045257876600535-teste-thumbs-spotren-ndex.avif",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280858966157440-sites-institucionais-corporativos-wordpress-spotren.png",
             "period": "/ mes",
             "price": "250",
             "priceType": "starting_at",
@@ -80,9 +80,10 @@
           },
           {
             "category": "WordPress",
+            "content": "Criamos lojas virtuais em WooCommerce com foco em performance, gestão simples e experiência de compra eficiente para vender online com mais autonomia e resultado.",
             "ctaText": "Contato",
             "currency": "R$",
-            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781103327337078961-teste-thumbs-spotren-ndex.avif",
+            "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280859892900513-lojas-virtuais-woocommerce-wordpress-spotren.png",
             "period": "/ mes",
             "price": "750",
             "priceType": "starting_at",
@@ -93,7 +94,7 @@
         "title": "Produtos"
       },
       {
-        "description": "Serviços sob medida para o seu negócio.",
+        "description": "Atendimento sob medida para o seu negócio",
         "key": "services",
         "services": [
           {
@@ -109,7 +110,8 @@
           },
           {
             "category": "Marketing Digital",
-            "ctaText": "Contratar",
+            "content": "Aprimoramos o SEO técnico do seu site com ajustes de performance, estrutura, indexação e metadados para melhorar visibilidade no Google e sustentar mais acessos qualificados.",
+            "ctaText": "Melhorar meu SEO",
             "currency": "R$",
             "price": "450",
             "priceType": "starting_at",
@@ -118,16 +120,18 @@
           },
           {
             "category": "GMN",
-            "ctaText": "Contratar",
+            "content": "Gerenciamos seu perfil no Google Meu Negócio com atualizações, categorias, fotos, posts e otimizações locais para aumentar visibilidade, confiança e geração de contatos.",
+            "ctaText": "Entrar em contato",
             "currency": "R$",
             "period": "/ mes",
             "price": "450",
             "priceType": "fixed",
             "title": "Gestão de perfil do Google Meu Negócio",
-            "url": "https://wa.me/17996502614"
+            "url": "https://wa.me/17996502614?text=gmn"
           },
           {
             "category": "Call",
+            "content": "Agende uma reunião de alinhamento para entender seu cenário, definir prioridades e organizar os próximos passos com mais clareza antes de iniciar o projeto.",
             "ctaText": "Agendar",
             "priceType": "free",
             "title": "Reunião de Alinhamento",
@@ -135,7 +139,8 @@
           },
           {
             "category": "Software",
-            "ctaText": "Contato",
+            "content": "Desenvolvemos SaaS e softwares desktop sob medida para organizar operações, automatizar tarefas e apoiar o crescimento do seu negócio com mais controle e eficiência.",
+            "ctaText": "Entrar em contato",
             "priceType": "none",
             "title": "SaaS ou Software Desktop",
             "url": "https://wa.me/17996502614"
@@ -144,32 +149,37 @@
         "title": "Serviços"
       },
       {
-        "description": "Dúvidas comuns sobre o site e o serviço.",
+        "description": "Perguntas \u0026 Respostas",
         "faqs": [
           {
-            "answer": "O prazo varia conforme a complexidade, mas geralmente entregamos sites institucionais em 15 a 30 dias úteis.",
-            "category": "Serviços",
-            "question": "Quanto tempo leva para criar um site?"
+            "answer": "O prazo varia conforme o produto. Sites para Negócios Locais ficam prontos de imediato,  sites e lojas WordPress geralmente são entregues entre 15 e 30 dias úteis, dependendo da complexidade.",
+            "category": "Trabalho",
+            "question": "Quanto tempo pra criar um site?"
           },
           {
             "answer": "Sim, oferecemos planos de manutenção mensal com suporte técnico e atualizações.",
-            "category": "Serviços",
+            "category": "Trabalho",
             "question": "Vocês oferecem suporte após a entrega?"
           },
           {
-            "answer": "Sim, todos os sites são personalizados de acordo com a identidade visual da sua marca.",
-            "category": "Produtos",
+            "answer": "Sim, os sites e lojas WordPress são personalizados de acordo com a identidade visual da sua marca, já os sites para negócios locais são construídos com templates otimizados focados em velocidade e conversão.",
+            "category": "Trabalho",
             "question": "Posso personalizar o design do meu site?"
           },
           {
-            "answer": "Atendemos clientes em todo o Brasil, com reuniões online e entregas remotas.",
+            "answer": "Não, atendemos clientes em todo o Brasil, com reuniões online e entregas remotas frequentes.",
             "category": "Geral",
-            "question": "Vocês atendem apenas em São José do Rio Preto?"
+            "question": "Vocês atendem apenas Rio Preto?"
           },
           {
             "answer": "Os valores variam conforme as funcionalidades, mas entramos em contato para um orçamento sem compromisso.",
             "category": "Geral",
             "question": "Qual o investimento médio para um site?"
+          },
+          {
+            "answer": "Para produtos como ndEX e criação de sites para Negócios Locais, aceitamos cartões de crédito Visa e Mastercard via Stripe. Para contratos mais personalizados aceitamos também Pix e Boletos.",
+            "category": "Geral",
+            "question": "Quais as formas de pagamento aceitas?"
           }
         ],
         "key": "faqs",
@@ -184,7 +194,7 @@
       "content": "Construtor de sites locais pronto para colocar empresas e profissionais no ar com páginas rápidas, responsivas e otimizadas para SEO local. Ideal para negócios que querem aparecer melhor no Google, destacar serviços, mostrar avaliações, produtos e formas de contato, com foco em geração de leads e presença digital profissional.",
       "ctaText": "Construir um site no ndEX",
       "currency": "R$",
-      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781114579746364752-construtor-de-sites-locais-ndex_optmz.png",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280816307037074-construtor-de-sites-locais-ndex-spotren.png",
       "period": "/ mes",
       "price": "35.20",
       "priceType": "fixed",
@@ -197,7 +207,7 @@
       "content": "Site profissional para comerciantes e profissionais locais que querem ser encontrados no Google, apresentar serviços com clareza e transformar visitas em contatos pelo WhatsApp. Ideal para negócios de bairro, autônomos e pequenos escritórios que precisam de uma presença online simples, rápida e focada em conversão.",
       "ctaText": "Chamar no Whats",
       "currency": "R$",
-      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781110880348381007-site-para-comerciantes-e-profissionais-locais-spotren_optmz.png",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280773196093698-site-para-comerciantes-e-profissionais-locais-spotren.png",
       "period": "/ mes",
       "price": "70,40",
       "priceType": "fixed",
@@ -207,10 +217,10 @@
     },
     {
       "category": "WordPress",
-      "content": "Site personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
+      "content": "Criamos sites institucionais corporativos para apresentar sua empresa com clareza, fortalecer a marca e transformar visitas em contatos com uma presença digital profissional.",
       "ctaText": "Contato",
       "currency": "R$",
-      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045257876600535-teste-thumbs-spotren-ndex.avif",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280858966157440-sites-institucionais-corporativos-wordpress-spotren.png",
       "period": "/ mes",
       "price": "250",
       "priceType": "starting_at",
@@ -220,9 +230,10 @@
     },
     {
       "category": "WordPress",
+      "content": "Criamos lojas virtuais em WooCommerce com foco em performance, gestão simples e experiência de compra eficiente para vender online com mais autonomia e resultado.",
       "ctaText": "Contato",
       "currency": "R$",
-      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781103327337078961-teste-thumbs-spotren-ndex.avif",
+      "imageUrl": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280859892900513-lojas-virtuais-woocommerce-wordpress-spotren.png",
       "period": "/ mes",
       "price": "750",
       "priceType": "starting_at",
@@ -244,7 +255,8 @@
     },
     {
       "category": "Marketing Digital",
-      "ctaText": "Contratar",
+      "content": "Aprimoramos o SEO técnico do seu site com ajustes de performance, estrutura, indexação e metadados para melhorar visibilidade no Google e sustentar mais acessos qualificados.",
+      "ctaText": "Melhorar meu SEO",
       "currency": "R$",
       "price": "450",
       "priceType": "starting_at",
@@ -254,17 +266,19 @@
     },
     {
       "category": "GMN",
-      "ctaText": "Contratar",
+      "content": "Gerenciamos seu perfil no Google Meu Negócio com atualizações, categorias, fotos, posts e otimizações locais para aumentar visibilidade, confiança e geração de contatos.",
+      "ctaText": "Entrar em contato",
       "currency": "R$",
       "period": "/ mes",
       "price": "450",
       "priceType": "fixed",
       "title": "Gestão de perfil do Google Meu Negócio",
       "type": "service",
-      "url": "https://wa.me/17996502614"
+      "url": "https://wa.me/17996502614?text=gmn"
     },
     {
       "category": "Call",
+      "content": "Agende uma reunião de alinhamento para entender seu cenário, definir prioridades e organizar os próximos passos com mais clareza antes de iniciar o projeto.",
       "ctaText": "Agendar",
       "priceType": "free",
       "title": "Reunião de Alinhamento",
@@ -273,7 +287,8 @@
     },
     {
       "category": "Software",
-      "ctaText": "Contato",
+      "content": "Desenvolvemos SaaS e softwares desktop sob medida para organizar operações, automatizar tarefas e apoiar o crescimento do seu negócio com mais controle e eficiência.",
+      "ctaText": "Entrar em contato",
       "priceType": "none",
       "title": "SaaS ou Software Desktop",
       "type": "service",
@@ -287,6 +302,10 @@
       "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/favicon/1781043875849419270-spotren-favicon-wp.ico"
     },
     "lang": "pt-BR",
+    "ogImage": {
+      "contentType": "image/png",
+      "url": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/og-image/1781283092308093349-spotrenempresasoftwareogimage--1-.png"
+    },
     "title": "Spotren™ Empresa de Software em São José do Rio Preto",
     "website": "https://spotren.site"
   },
@@ -397,9 +416,9 @@
             "@type": "Question",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "O prazo varia conforme a complexidade, mas geralmente entregamos sites institucionais em 15 a 30 dias úteis."
+              "text": "O prazo varia conforme o produto. Sites para Negócios Locais ficam prontos de imediato,  sites e lojas WordPress geralmente são entregues entre 15 e 30 dias úteis, dependendo da complexidade."
             },
-            "name": "Quanto tempo leva para criar um site?"
+            "name": "Quanto tempo pra criar um site?"
           },
           {
             "@type": "Question",
@@ -413,7 +432,7 @@
             "@type": "Question",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sim, todos os sites são personalizados de acordo com a identidade visual da sua marca."
+              "text": "Sim, os sites e lojas WordPress são personalizados de acordo com a identidade visual da sua marca, já os sites para negócios locais são construídos com templates otimizados focados em velocidade e conversão."
             },
             "name": "Posso personalizar o design do meu site?"
           },
@@ -421,9 +440,9 @@
             "@type": "Question",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Atendemos clientes em todo o Brasil, com reuniões online e entregas remotas."
+              "text": "Não, atendemos clientes em todo o Brasil, com reuniões online e entregas remotas frequentes."
             },
-            "name": "Vocês atendem apenas em São José do Rio Preto?"
+            "name": "Vocês atendem apenas Rio Preto?"
           },
           {
             "@type": "Question",
@@ -432,6 +451,14 @@
               "text": "Os valores variam conforme as funcionalidades, mas entramos em contato para um orçamento sem compromisso."
             },
             "name": "Qual o investimento médio para um site?"
+          },
+          {
+            "@type": "Question",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Para produtos como ndEX e criação de sites para Negócios Locais, aceitamos cartões de crédito Visa e Mastercard via Stripe. Para contratos mais personalizados aceitamos também Pix e Boletos."
+            },
+            "name": "Quais as formas de pagamento aceitas?"
           }
         ]
       },
@@ -439,7 +466,7 @@
         "@type": "Product",
         "category": "Sites Locais",
         "description": "Construtor de sites locais pronto para colocar empresas e profissionais no ar com páginas rápidas, responsivas e otimizadas para SEO local. Ideal para negócios que querem aparecer melhor no Google, destacar serviços, mostrar avaliações, produtos e formas de contato, com foco em geração de leads e presença digital profissional.",
-        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781114579746364752-construtor-de-sites-locais-ndex_optmz.png",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280816307037074-construtor-de-sites-locais-ndex-spotren.png",
         "name": "Construtor de Sites Locais ndEX",
         "offers": {
           "@type": "Offer",
@@ -453,7 +480,7 @@
         "@type": "Product",
         "category": "Sites Locais",
         "description": "Site profissional para comerciantes e profissionais locais que querem ser encontrados no Google, apresentar serviços com clareza e transformar visitas em contatos pelo WhatsApp. Ideal para negócios de bairro, autônomos e pequenos escritórios que precisam de uma presença online simples, rápida e focada em conversão.",
-        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781110880348381007-site-para-comerciantes-e-profissionais-locais-spotren_optmz.png",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280773196093698-site-para-comerciantes-e-profissionais-locais-spotren.png",
         "name": "Site para Comerciantes e Profissionais Locais",
         "offers": {
           "@type": "Offer",
@@ -466,8 +493,8 @@
       {
         "@type": "Product",
         "category": "WordPress",
-        "description": "Site personalizado para fortalecer sua marca e atrair clientes por meio de conteúdo relevante.",
-        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781045257876600535-teste-thumbs-spotren-ndex.avif",
+        "description": "Criamos sites institucionais corporativos para apresentar sua empresa com clareza, fortalecer a marca e transformar visitas em contatos com uma presença digital profissional.",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280858966157440-sites-institucionais-corporativos-wordpress-spotren.png",
         "name": "Sites Institucionais Corporativos",
         "offers": {
           "@type": "Offer",
@@ -480,7 +507,8 @@
       {
         "@type": "Product",
         "category": "WordPress",
-        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781103327337078961-teste-thumbs-spotren-ndex.avif",
+        "description": "Criamos lojas virtuais em WooCommerce com foco em performance, gestão simples e experiência de compra eficiente para vender online com mais autonomia e resultado.",
+        "image": "https://storage.googleapis.com/spotren-site-template-images-428176724323/sites/449f9a51-a72b-476f-92be-56dee7e9878f/10c36363-eede-4092-a988-09e1af28b254/catalog/1781280859892900513-lojas-virtuais-woocommerce-wordpress-spotren.png",
         "name": "Lojas Virtuais WooCommerce",
         "offers": {
           "@type": "Offer",
@@ -507,6 +535,7 @@
       {
         "@type": "Service",
         "category": "Marketing Digital",
+        "description": "Aprimoramos o SEO técnico do seu site com ajustes de performance, estrutura, indexação e metadados para melhorar visibilidade no Google e sustentar mais acessos qualificados.",
         "name": "Melhorias de SEO Técnico",
         "offers": {
           "@type": "Offer",
@@ -519,18 +548,20 @@
       {
         "@type": "Service",
         "category": "GMN",
+        "description": "Gerenciamos seu perfil no Google Meu Negócio com atualizações, categorias, fotos, posts e otimizações locais para aumentar visibilidade, confiança e geração de contatos.",
         "name": "Gestão de perfil do Google Meu Negócio",
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
           "price": "450",
-          "url": "https://wa.me/17996502614"
+          "url": "https://wa.me/17996502614?text=gmn"
         },
-        "url": "https://wa.me/17996502614"
+        "url": "https://wa.me/17996502614?text=gmn"
       },
       {
         "@type": "Service",
         "category": "Call",
+        "description": "Agende uma reunião de alinhamento para entender seu cenário, definir prioridades e organizar os próximos passos com mais clareza antes de iniciar o projeto.",
         "name": "Reunião de Alinhamento",
         "offers": {
           "@type": "Offer",
@@ -543,6 +574,7 @@
       {
         "@type": "Service",
         "category": "Software",
+        "description": "Desenvolvemos SaaS e softwares desktop sob medida para organizar operações, automatizar tarefas e apoiar o crescimento do seu negócio com mais controle e eficiência.",
         "name": "SaaS ou Software Desktop",
         "offers": {
           "@type": "Offer",
